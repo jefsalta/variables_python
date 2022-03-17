@@ -31,3 +31,31 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+print('''
+         1) Suma
+         2) Resta
+         3) Multiplicación
+         4) División
+         5) Exponente/Potencia''')
+print("Selecciones una opción: ")
+opcion= int(str(input()))
+if opcion == 1:
+    numero1= int(str(input("Ingrese un numero: ")))
+    numero2= int(str(input("Ingrese un numero: ")))
+    print("La suma entre",numero1,"y",numero2,"es",numero1+numero2)
+elif opcion == 2:
+     numero1= int(str(input("Ingrese un numero: ")))
+     numero2= int(str(input("Ingrese un numero: ")))
+     print("La resta entre",numero1,"y",numero2,"es",numero1 - numero2)
+elif opcion == 3:
+      numero1= int(str(input("Ingrese un numero: ")))
+      numero2= int(str(input("Ingrese un numero: ")))
+      print("La multiplicacion entre",numero1,"y",numero2,"es",numero1 * numero2)
+elif opcion == 4:
+      numero1= int(str(input("Ingrese un numero: ")))
+      numero2= int(str(input("Ingrese un numero: ")))
+      print("La division entre",numero1,"y",numero2,"es",numero1 / numero2)
+else:
+      numero1= int(str(input("Ingrese un numero: ")))
+      numero2= int(str(input("Ingrese un numero: ")))
+      print("La potencia entre",numero1,"y",numero2,"es",numero1 ** numero2)
