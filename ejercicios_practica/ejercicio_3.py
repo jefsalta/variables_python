@@ -18,9 +18,10 @@ print('Ingrese por consola su apellido/s:')
 apellido = str(input())
 
 # Imprima su nombre completo
-
+print(nombre,apellido)
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
-
+nom_apel=nombre + " " + apellido
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+print("Cantidad de letras del nombre y apellido:",len(nom_apel))
