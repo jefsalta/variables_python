@@ -55,7 +55,8 @@ elif opcion == 4:
       numero1= int(str(input("Ingrese un numero: ")))
       numero2= int(str(input("Ingrese un numero: ")))
       print("La division entre",numero1,"y",numero2,"es",numero1 / numero2)
-else:
+elif opcion == 5:
       numero1= int(str(input("Ingrese un numero: ")))
       numero2= int(str(input("Ingrese un numero: ")))
       print("La potencia entre",numero1,"y",numero2,"es",numero1 ** numero2)
+else: print("OPCION INCORRECTA - FIN DEL PROGRAMA")
