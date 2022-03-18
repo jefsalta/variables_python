@@ -24,4 +24,6 @@ print(nombre,apellido)
 nom_apel=nombre + " " + apellido
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
-print("Cantidad de letras del nombre y apellido:",len(nom_apel))
+sinespacios=nom_apel.replace(" ","")
+caracteres= len(sinespacios)
+print("El nombre y apellido tiene",caracteres," letras")
